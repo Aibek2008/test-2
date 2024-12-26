@@ -4,7 +4,7 @@ class Car:
         self.years = years
         self.country = country
         self.price = price
-        self.v = volume
+        self.va = volume
 
     def cars(self):
         return f'car: {self.car} years: {self.years} county: {self.country} price: {self.price} volume: {self.volume}'
